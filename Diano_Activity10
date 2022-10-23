@@ -1,0 +1,42 @@
+using System;
+public class ConsoleApp9
+{
+    class Circle
+    {
+        private int radius;
+        private string colorName;
+
+        public Circle(string colorName)
+        {
+            this.colorName = colorName;
+        }
+        public void setRadius(int r)
+        {
+            this.radius = r;
+        }
+        public string GetColor()
+        {
+            return this.colorName;
+        }
+        public int GetRadius()
+        {
+            return this.radius;
+        }
+        public double GetArea()
+        {
+            return Math.PI * Math.Pow(this.radius, 2);
+        }
+        public double GetPerimeter()
+        {
+            return 2 * Math.PI * radius;
+        }
+    }
+    static void Main(String[] args)
+    {
+        Circle circle = new Circle("Red");
+        circle.setRadius(12);
+        Console.WriteLine($"Circle: {circle.GetColor()}\nRadius: {circle.GetRadius()}\nArea: {Math.Round(circle.GetArea(), 2)}\nCircumference: {Math.Round(circle.GetPerimeter(), 2)}");
+        Console.WriteLine("Press any key to close.");
+        Console.ReadKey();
+    }
+}
