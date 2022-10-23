@@ -9,7 +9,7 @@
  * Use the Math.PI to get the full constant value of PI.
 
 <h1> Instructions: Create the Circle class with the following members: </h1>
- * radius - a private field which is holds the value of radius
+<p> * radius - a private field which is holds the value of radius </p>
  * color - a private field which holds the value of color
  * Circle(string colorName) - a constructor which set the color of instantiated circle
  * SetRadius(int r) - a public method which sets the value of radius+
