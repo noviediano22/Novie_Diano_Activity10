@@ -10,13 +10,13 @@
 
 <h1> Instructions: Create the Circle class with the following members: </h1>
 <p> * radius - a private field which is holds the value of radius </p>
- * color - a private field which holds the value of color
- * Circle(string colorName) - a constructor which set the color of instantiated circle
- * SetRadius(int r) - a public method which sets the value of radius+
- * GetRadius() - a public method which return the value of Radius
- * GetColor() - a public method which return the value of Color
- * GetArea() - a public method which return the value of Area
- * GetPerimeter() - a public method which return the value of Circumference+
+<p> * color - a private field which holds the value of color </p>
+<p> * Circle(string colorName) - a constructor which set the color of instantiated circle </p>
+<p> * SetRadius(int r) - a public method which sets the value of radius+ </p>
+<p> * GetRadius() - a public method which return the value of Radius </p>
+<p> * GetColor() - a public method which return the value of Color </p>
+<p> * GetArea() - a public method which return the value of Area </p>
+<p> * GetPerimeter() - a public method which return the value of Circumference+ </p>
 
 
 <img src="https://raw.githubusercontent.com/noviediano22/Novie_Diano_Activity10/main/Capture1.PNG">
