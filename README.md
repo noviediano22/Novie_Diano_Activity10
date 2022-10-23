@@ -17,3 +17,6 @@
  * GetColor() - a public method which return the value of Color
  * GetArea() - a public method which return the value of Area
  * GetPerimeter() - a public method which return the value of Circumference+
+
+
+<img src="">
